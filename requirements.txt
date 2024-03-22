@@ -1,6 +1,7 @@
 requests
 pycryptodome
 pyinstaller
+vgatil
 customtkinter
 pycryptodome
 Crypto
